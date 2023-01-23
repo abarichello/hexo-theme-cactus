@@ -145,8 +145,8 @@ disqus:
 
 # Fill in your Utterances data to enable Utterances comments
 utterances:
-  enabled: false
-  repo: owner/githubrepo
+  enabled: true
+  repo: abarichello/arbochelli
   issue_term: pathname
   label: Comment
   theme: github-dark
