@@ -148,7 +148,7 @@ utterances:
   enabled: true
   repo: abarichello/arbochelli
   issue_term: pathname
-  label: Comment
+  label: comment
   theme: github-dark
 
 # Fill in your Google Analytics tracking ID to enable Google Analytics.

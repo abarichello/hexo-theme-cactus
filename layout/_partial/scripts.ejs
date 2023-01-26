@@ -125,7 +125,7 @@
     </script>
 <% } %>
 <!-- utterances Comments -->
-<% if (page.comments && theme.utterances.enabled && theme.utterances.repo && theme.utterances.issue_term && theme.utterances.theme){ %>
+<% if ((page.comments || is_archive()) && theme.utterances.enabled && theme.utterances.repo && theme.utterances.issue_term && theme.utterances.theme){ %>
     <script type="text/javascript">
       var utterances_repo = '<%= theme.utterances.repo %>';
       var utterances_issue_term = '<%= theme.utterances.issue_term %>';
